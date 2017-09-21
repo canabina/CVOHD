@@ -1,4 +1,4 @@
-const pathToDigits = './digits/original';
+const pathToDigits = './numbers/original';
 
 const _ = require('lodash');
 const brain = require('brain');
