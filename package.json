@@ -1,0 +1,37 @@
+{
+  "name": "cvohd",
+  "version": "1.0.0",
+  "description": "Computer vision of handwritten digits",
+  "main": "learn.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "traininng": "node ./traininng.js",
+    "parse": "node ./parse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canabina/CVOHD.git"
+  },
+  "keywords": [
+    "computer",
+    "vision",
+    "digits",
+    "nerual",
+    "network",
+    "machine",
+    "learning"
+  ],
+  "author": "Canabina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canabina/CVOHD/issues"
+  },
+  "homepage": "https://github.com/canabina/CVOHD#readme",
+  "dependencies": {
+    "brain": "^0.7.0",
+    "brain.js": "^1.0.0-rc.3",
+    "cli-progress-bar": "^1.0.1",
+    "jimp": "^0.2.28",
+    "lodash": "^4.17.4"
+  }
+}
