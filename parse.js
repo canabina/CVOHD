@@ -1,10 +1,10 @@
+let digitImagePath = './digits/test/digit.png';
+
 const fs = require('fs');
 const Jimp = require('jimp');
 const brain = require('brain');
 const net = new brain.NeuralNetwork();
 const _ = require('lodash');
-
-let digitImagePath = './digits/test/digit.png';
 
 Jimp.read(digitImagePath, (err, image) => {
     let matrix = {};

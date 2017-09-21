@@ -54,7 +54,7 @@ let afterReadImages = () => {
     bar.show("Neural network was successfully trained", 0.9);
     bar.pulse("Saving model of neural network in JSON file");
 
-    fs.writeFile("./model.json", JSON.stringify(json), function(err) {
+    fs.writeFile("./model.json", JSON.stringify(json), err => {
         if (err) return console.log(err);
         bar.show("Model file was saved!", 1);
         return bar.hide();
