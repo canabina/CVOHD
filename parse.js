@@ -4,7 +4,7 @@ const brain = require('brain');
 const net = new brain.NeuralNetwork();
 const _ = require('lodash');
 
-let digitImagePath = './numbers/test/digit.png';
+let digitImagePath = './digits/test/digit.png';
 
 Jimp.read(digitImagePath, (err, image) => {
     let matrix = {};
